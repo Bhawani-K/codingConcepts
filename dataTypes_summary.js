@@ -41,3 +41,10 @@ const func = function(){
 console.log(`dataType of Array :- ${typeof sports}`);
 console.log(`dataType of Object :- ${typeof myObj}`);
 console.log(`dataType of function :- ${typeof func}`);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive):- shares a copy of the variable, 
+// Heap(Non-Primitive) :- shares a refrence of the variable
+
+//   https://felixgerschau.com/static/b452488bd7eeac0405c48f164da6280d/5a190/stack-heap-pointers.png
