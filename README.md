@@ -158,3 +158,8 @@
   - join
   - splice
   - slice
+  - isArray
+  - from
+  - of
+  - flat
+  - Spread Operator (...ArrName)
