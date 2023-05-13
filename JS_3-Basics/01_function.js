@@ -56,11 +56,32 @@ function logMessage(userName = 'Abc'){
 
 console.log(logMessage()); // if no argument is passed, it takes up the default value.
 
+// ******************************************************************************************
 
+// RestParameter
+function calculateCartPrice(...num1){  //We can pass multiple parameters 
+    return num1;
+}
+console.log(calculateCartPrice(12,1,2,1,2,2));
 
+const userObj =  {
+    userName : 'Asd',
+    price:400
+}
 
+function handleObj(anyObject){
+    console.log(`Username is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+// handleObj(userObj)
+handleObj({
+    userName:'qwe',
+    price:200
+})
 
-
-
+const MyNewArray = [100,200,300,400,500]
+function returnVal(getArray){
+    return getArray[2] // return whatever we are getting in function parameter
+}
+console.log(returnVal([100,200,300,400,500]));
 
 
